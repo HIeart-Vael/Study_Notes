@@ -36,7 +36,7 @@
 
 如果没有勾选文件和目录的上下文菜单，可参考此链接：[将VScode添加至右键菜单](https://www.cnblogs.com/kangyupl/p/13525258.html) 新建reg文件将值添加到注册表。
 
-（强烈建议重新安装，不用卸载直接覆盖安装即可）
+**（强烈建议重新安装，不用卸载直接覆盖安装即可）**
 
 ```
 Windows Registry Editor Version 5.00
