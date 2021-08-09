@@ -20,13 +20,23 @@ MinGW和MinGW-w64都是C/C++的编译器，推荐使用MinGW-w64。
 
 > Tarballs for the mingw-w64 sources are hosted on [SourceForge](http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/). 
 
+
+
 点击  [SourceForge](http://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/) 
 
-![image-20210808001642144](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210808001642144.png)
+![image-20210809232814032](./img1.png)
+
+
 
 后退到 [Home/mingw-w64](https://sourceforge.net/projects/mingw-w64/files/mingw-w64/)
 
-![image-20210808001841467](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210808001841467.png)
+![image-20210808001642144](./img2.png)
+
+
+
+选择[x86_64-posix-seh](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z/download)
+
+![image-20210808001841467](./img3.png)
 
 以下是MinGW-w64不同版本区别的说明：
 
@@ -64,4 +74,4 @@ MinGW和MinGW-w64都是C/C++的编译器，推荐使用MinGW-w64。
 
 完成！
 
-注：VSCode会保存打开前的环境变量，所以修改环境变量后再打开VSCode或修改后重启VSCode。
+**注：VSCode会保存打开前的环境变量，所以修改环境变量后再打开VSCode或修改后重启VSCode。**
