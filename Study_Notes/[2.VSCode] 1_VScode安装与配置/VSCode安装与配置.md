@@ -1,5 +1,7 @@
 # VSCode安装与配置：
 
+
+
 ## VSCode下载：
 
 地址首页：[Visual Studio Code](https://code.visualstudio.com/)  —— 下载页：[Visual Studio Code Download](https://code.visualstudio.com/Download)
