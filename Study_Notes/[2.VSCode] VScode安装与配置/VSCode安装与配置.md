@@ -134,7 +134,7 @@ Windows Registry Editor Version 5.00
       "files.autoSaveDelay": 5000,
       "editor.suggest.snippetsPreventQuickSuggestions": false,
       "editor.tabCompletion": "on",
-      "editor.quickSuggestions": true, //控制是否在键入时自动显示建议。
+      "editor.quickSuggestions": true,
   }
   ```
 
