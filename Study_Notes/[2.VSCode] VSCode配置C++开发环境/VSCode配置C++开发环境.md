@@ -44,36 +44,35 @@ int main() {
 3. **重复第一步，点击"运行与调试"后在VSCode顶部选择 C++(GDB/LLDB)，再选择 g++.exe， 会自动生成 launch.json。**
 
    ```json
-   {
-       //使用 IntelliSense 了解相关属性。 
-       //悬停以查看现有属性的描述。
-       //欲了解更多信息，请访问:https://go.microsoft.com/fwlink/?linkid=830387
-       "version": "0.2.0",
-       "configurations": [
-           {
-               "name": "g++.exe - 生成和调试活动文件",                         // 配置名称，将会在启动配置的下拉菜单中显示  
-               "type": "cppdbg",                                             // 配置类型，这里只能为cppdbg  
-               "request": "launch",                                          // 请求配置类型，可以为launch（启动）或attach（附加）  
-               "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",  // 将要进行调试的程序的路径  
-               "args": [],                                                   // 程序调试时传递给程序的命令行参数，一般设为空即可  
-               "stopAtEntry": false,                                         // 设为true时程序将暂停在程序入口处，一般设置为false  
-               "cwd": "${fileDirname}",                            // 调试程序时的工作目录，一般为${workspaceFolder}即代码所在目录  
-               "environment": [],
-               "externalConsole": false,                           // 调试时是否显示控制台窗口，一般设置为true显示控制台   
-               "MIMode": "gdb",
-                // miDebugger的路径，注意这里要与MinGw的路径对应  
-               "miDebuggerPath": "D:\\Program Files\\mingw-w64-v8.1.0\\mingw64\\bin\\gdb.exe",
-               "setupCommands": [
-                   {
-                       "description": "为 gdb 启用整齐打印",
-                       "text": "-enable-pretty-printing",
-                       "ignoreFailures": true
-                   }
-               ],
-               "preLaunchTask": "C/C++: g++.exe 生成活动文件"      //和tasks中label保持一致
-           }
-       ]
-   }
+    {
+        // 使用 IntelliSense 了解相关属性。 
+        // 悬停以查看现有属性的描述。
+        // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "g++.exe - 生成和调试活动文件",
+                "type": "cppdbg",
+                "request": "launch",
+                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "args": [],
+                "stopAtEntry": false,
+                "cwd": "${fileDirname}",
+                "environment": [],
+                "externalConsole": false,
+                "MIMode": "gdb",
+                "miDebuggerPath": "D:\\Program Files\\mingw-w64-v8.1.0\\mingw64\\bin\\gdb.exe",
+                "setupCommands": [
+                    {
+                        "description": "为 gdb 启用整齐打印",
+                        "text": "-enable-pretty-printing",
+                        "ignoreFailures": true
+                    }
+                ],
+                "preLaunchTask": "C/C++: g++.exe 生成活动文件"
+            }
+        ]
+    }
    ```
 
    生成的同时会启动调试程序，同时在终端可以看到输出：“Hello World！”
@@ -83,33 +82,33 @@ int main() {
 4. **上述步骤一般会同时生成tasks.json文件**，如果没有生成可以返回test.cpp文件，按F5进行调试，会弹出找不到任务"task g++"，选择 "配置任务"，会自动生成 tasks.json 文件。
 
    ```json
-   {
-       "tasks": [
-           {
-               "type": "cppbuild",
-               "label": "C/C++: g++.exe 生成活动文件",  // 这里应该与launch.json的preLaunchTask保持一致
-               "command": "D:\\Program Files\\mingw-w64-v8.1.0\\mingw64\\bin\\g++.exe",
-               "args": [   // 编译参数
-                   "-g",
-                   "${file}",
-                   "-o",
-                   "${fileDirname}\\${fileBasenameNoExtension}.exe"
-               ],
-               "options": {
-                   "cwd": "${fileDirname}"
-               },
-               "problemMatcher": [
-                   "$gcc"
-               ],
-               "group": {
-                   "kind": "build",
-                   "isDefault": true
-               },
-               "detail": "调试器生成的任务。"
-           }
-       ],
-       "version": "2.0.0"
-   }
+    {
+        "tasks": [
+            {
+                "type": "cppbuild",
+                "label": "C/C++: g++.exe 生成活动文件",
+                "command": "D:\\Program Files\\mingw-w64-v8.1.0\\mingw64\\bin\\g++.exe",
+                "args": [
+                    "-g",
+                    "${file}",
+                    "-o",
+                    "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                ],
+                "options": {
+                    "cwd": "${fileDirname}"
+                },
+                "problemMatcher": [
+                    "$gcc"
+                ],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                },
+                "detail": "调试器生成的任务。"
+            }
+        ],
+        "version": "2.0.0"
+    }
    ```
 
    完成！现在就可以按F5对文件进行调试了。
