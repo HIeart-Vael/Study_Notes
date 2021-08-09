@@ -4,7 +4,7 @@
 
 - ### C++：
 
-  - [**[环境-C++] MinGW-w64安装与使用**](./[环境-C++] MinGW-w64安装与使用/MinGW-w64安装和使用.md)
+  - [**[环境-C++] MinGW-w64安装与使用**](https://github.com/HIeart-Vael/Study_Notes/blob/master/%5BGit%5D%20Git%E5%AE%89%E8%A3%85%E4%B8%8ESSH%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8/Git%E5%AE%89%E8%A3%85%E4%B8%8ESSH%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8.md)
 
 
 
