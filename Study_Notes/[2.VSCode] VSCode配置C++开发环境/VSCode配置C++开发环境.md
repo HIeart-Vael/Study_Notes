@@ -47,11 +47,11 @@ int main() {
    {
        //使用 IntelliSense 了解相关属性。 
        //悬停以查看现有属性的描述。
-       //欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+       //欲了解更多信息，请访问:https://go.microsoft.com/fwlink/?linkid=830387
        "version": "0.2.0",
        "configurations": [
            {
-               "name": "g++.exe - 生成和调试活动文件",                           // 配置名称，将会在启动配置的下拉菜单中显示  
+               "name": "g++.exe - 生成和调试活动文件",                         // 配置名称，将会在启动配置的下拉菜单中显示  
                "type": "cppdbg",                                             // 配置类型，这里只能为cppdbg  
                "request": "launch",                                          // 请求配置类型，可以为launch（启动）或attach（附加）  
                "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",  // 将要进行调试的程序的路径  
