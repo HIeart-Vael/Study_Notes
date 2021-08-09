@@ -146,9 +146,4 @@ Windows Registry Editor Version 5.00
 
 #### 一键查看支持的语言扩展：在扩展商店输入@recommended:languages 
 
-![image-20210808210320808](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210808210320808.png)
-
-#### VSCode常用插件：
-
-- Bracket Pair Colorizer 2 （用于给匹配的括号上色）
-- 
+![image-20210808210320808](./img1.png)
