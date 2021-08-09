@@ -83,7 +83,7 @@ int main() {
         "tasks": [
             {
                 "type": "cppbuild",
-                "label": "C/C++: g++.exe 生成活动文件",
+                "label": "C/C++: g++.exe 生成活动文件",  //这里应该与launch.json的preLaunchTask保持一致
                 "command": "D:\\Program Files\\mingw-w64-v8.1.0\\mingw64\\bin\\g++.exe",
                 "args": [
                     "-g",
