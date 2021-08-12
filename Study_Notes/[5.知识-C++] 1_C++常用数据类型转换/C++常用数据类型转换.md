@@ -12,11 +12,15 @@
 
 ### string --> int
 
-- **std::stoi**
+- **stoi**
 
-![image-20210812203621232](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210812203621232.png)
+![image-20210812203621232](./img1.png)
 
 ### int --> string
+
+- **to_string**
+
+![image-20210812203803992](./img2.png)
 
 ## string <--> char
 

@@ -33,7 +33,7 @@ Git教程：[Git 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/git/
 
 ## 主要：
 
-<img src="./img0.png" alt="image-20210810174651144" style="zoom:150%;" />
+<img src="./img0.png" alt="img0" style="zoom:150%;" />
 
 ### 基础篇：
 
@@ -104,11 +104,11 @@ Git教程：[Git 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/git/
 
 1. 现在有两个并行开发的分支`bugFix`和`main`，当前分支为`bugFix`，现在需要将`bugFix`分支的内容＂复制＂到`main`分支，并且更新`main`分支。
 
-![image-20210810172229127](./img1.png)
+![img1](./img1.png)
 
 2. （bugFix）使用`git rebase main`命令将`bugFix`的内容"复制"到`main`分支。
 
-![image-20210810173543950](./img2.png)
+![img2](./img2.png)
 
 > 现在 bugFix 分支上的工作在 main 的最顶端，同时我们也得到了一个更线性的提交序列。
 >
@@ -118,7 +118,7 @@ Git教程：[Git 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/git/
 
 3. （main）切换到 `main` 分支上。把它 rebase 到 `bugFix` 分支上。
 
-![image-20210810174119580](./img3.png)
+![img3](./img3.png)
 
 > 由于 `bugFix` 继承自 `main`，所以 Git 只是简单的把 `main` 分支的引用向前移动了一下而已。
 
@@ -146,25 +146,25 @@ Git教程：[Git 教程 | 菜鸟教程 (runoob.com)](https://www.runoob.com/git/
 git checkout C1(哈希值)
 ```
 
-![](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210810204732281.png)
+![img4](./img4.png)
 
 ```shell
 git checkout main
 ```
 
-![image-20210810205510198](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210810205510198.png)
+![img5](img5.png)
 
 ```shell
 git commit
 ```
 
-![image-20210810205400845](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210810205400845.png)
+![img6](./img6.png)
 
 ```shell
 git checkout C2(哈希值)
 ```
 
-![image-20210810204701763](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210810204701763.png)
+![img7](img7.png)
 
 可以看到，HEAD 指向了 `main`，并随着提交向前移动。
 
@@ -174,13 +174,13 @@ git checkout C2(哈希值)
 
 HEAD -> main -> C1 （HEAD 指向 main， main 指向 C1）
 
-![image-20210810205133460](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210810205133460.png)
+![img8](./img8.png)
 
 ```shell
 git checkout C1(哈希值)
 ```
 
-![image-20210810205217817](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20210810205217817.png)
+![img9](./img9.png)
 
 现在变成了：HEAD -> C1
 
