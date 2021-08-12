@@ -58,7 +58,7 @@ URL在线编码工具：[UrlEncode编码/UrlDecode解码 - 站长工具 (chinaz.
 
 - github对标点符号和大小写都不敏感，将标题文字进行URL编码的时候也需要将标点符号去掉。（如下，两种方法均可在GitHub使用）
 
-效果(vscode)：
+**效果**(vscode)：
 
 ```markdown
 - [Markdown生成TOC：](#markdown%E7%94%9F%E6%88%90toc)
@@ -69,4 +69,4 @@ URL在线编码工具：[UrlEncode编码/UrlDecode解码 - 站长工具 (chinaz.
 
 
 
-**注**：azureDevops为完成URL编码，带标点。
+**注**：azureDevops为完整URL编码，带标点。
