@@ -15,6 +15,7 @@
 
 
 - [Markdown生成TOC：](#markdown%E7%94%9F%E6%88%90toc)
+  - [更正——（方法更简单且通用）：](#%E6%9B%B4%E6%AD%A3%E6%96%B9%E6%B3%95%E6%9B%B4%E7%AE%80%E5%8D%95%E4%B8%94%E9%80%9A%E7%94%A8)
   - [正常情况：](#%E6%AD%A3%E5%B8%B8%E6%83%85%E5%86%B5)
     - [一、TOC标签直接生成](#%E4%B8%80toc%E6%A0%87%E7%AD%BE%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90)
     - [二、手动生成](#%E4%BA%8C%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90)
@@ -52,19 +53,30 @@
 
 使用方法：安装好后 -- Ctrl + Shift + P打开控制面板 -- 输入Create Table of Contents自动生成TOC
 
+优点：可以自动更新TOC
+
 效果：
 
 ```markdown
-- [Markdown生成TOC：](#markdown%E7%94%9F%E6%88%90toc)
-  - [正常情况：](#%E6%AD%A3%E5%B8%B8%E6%83%85%E5%86%B5)
-    - [一、TOC标签直接生成](#%E4%B8%80toc%E6%A0%87%E7%AD%BE%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90)
-    - [二、手动生成](#%E4%BA%8C%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90)
-    - [三、VSCode插件](#%E4%B8%89vscode%E6%8F%92%E4%BB%B6)
-  - [Github生成TOC：](#github%E7%94%9F%E6%88%90toc)
-    - [一、手动生成](#%E4%B8%80%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90)
-    - [二、VSCode插件](#%E4%BA%8Cvscode%E6%8F%92%E4%BB%B6)
+- [Markdown生成TOC：](#markdown生成toc)
+  - [更正——（方法更简单且通用）：](#更正方法更简单且通用)
+  - [正常情况：](#正常情况)
+    - [一、TOC标签直接生成](#一toc标签直接生成)
+    - [二、手动生成](#二手动生成)
+    - [三、VSCode插件](#三vscode插件)
+  - [Github生成TOC：](#github生成toc)
+    - [一、手动生成](#一手动生成)
+    - [二、VSCode插件](#二vscode插件)
 ```
-
+- [Markdown生成TOC：](#markdown生成toc)
+  - [更正——（方法更简单且通用）：](#更正方法更简单且通用)
+  - [正常情况：](#正常情况)
+    - [一、TOC标签直接生成](#一toc标签直接生成)
+    - [二、手动生成](#二手动生成)
+    - [三、VSCode插件](#三vscode插件)
+  - [Github生成TOC：](#github生成toc)
+    - [一、手动生成](#一手动生成)
+    - [二、VSCode插件](#二vscode插件)
 
 
 ## Github生成TOC：
@@ -110,11 +122,25 @@ Github比较麻烦，但也与上面类似，解决编码问题即可。
 
 - 安装好后打开`设置` --> `扩展` --> `Markdown All in One` --> `Markdown › Extension › Toc: Slugify Mode`
 - 将生成标题 ID 的方法改为`VSCode`
-
 -  打开markdown文件 -- `Ctrl + Shift + P`打开控制面板 -- 输入`Create Table of Contents`自动生成TOC
+-  优点：可以自动更新TOC
+
+
+```markdown
+- [Markdown生成TOC：](#markdown%E7%94%9F%E6%88%90toc)
+  - [更正——（方法更简单且通用）：](#%E6%9B%B4%E6%AD%A3%E6%96%B9%E6%B3%95%E6%9B%B4%E7%AE%80%E5%8D%95%E4%B8%94%E9%80%9A%E7%94%A8)
+  - [正常情况：](#%E6%AD%A3%E5%B8%B8%E6%83%85%E5%86%B5)
+    - [一、TOC标签直接生成](#%E4%B8%80toc%E6%A0%87%E7%AD%BE%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90)
+    - [二、手动生成](#%E4%BA%8C%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90)
+    - [三、VSCode插件](#%E4%B8%89vscode%E6%8F%92%E4%BB%B6)
+  - [Github生成TOC：](#github%E7%94%9F%E6%88%90toc)
+    - [一、手动生成](#%E4%B8%80%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90)
+    - [二、VSCode插件](#%E4%BA%8Cvscode%E6%8F%92%E4%BB%B6)
+```
 
 看一下效果：
 - [Markdown生成TOC：](#markdown%E7%94%9F%E6%88%90toc)
+  - [更正——（方法更简单且通用）：](#%E6%9B%B4%E6%AD%A3%E6%96%B9%E6%B3%95%E6%9B%B4%E7%AE%80%E5%8D%95%E4%B8%94%E9%80%9A%E7%94%A8)
   - [正常情况：](#%E6%AD%A3%E5%B8%B8%E6%83%85%E5%86%B5)
     - [一、TOC标签直接生成](#%E4%B8%80toc%E6%A0%87%E7%AD%BE%E7%9B%B4%E6%8E%A5%E7%94%9F%E6%88%90)
     - [二、手动生成](#%E4%BA%8C%E6%89%8B%E5%8A%A8%E7%94%9F%E6%88%90)
