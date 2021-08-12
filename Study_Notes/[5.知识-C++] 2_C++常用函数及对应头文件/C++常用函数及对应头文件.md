@@ -5,10 +5,9 @@ C++参考手册：[cppreference.com](https://zh.cppreference.com/)
 [TOC]
 - [C++常用函数及对应头文件](#c常用函数及对应头文件)
   - [字符串库](#字符串库)
-    - [字符检查&大小写转换：](#字符检查大小写转换)
-      - [头文件：\<cctype\>](#头文件cctype)
-      - [头文件：\<string\>](#头文件string)
-      - [头文件：\<cstring\>](#头文件cstring)
+    - [头文件：\<cctype\>](#头文件cctype)
+    - [头文件：\<string\>](#头文件string)
+    - [头文件：\<cstring\>](#头文件cstring)
 
 ## 字符串库
 
