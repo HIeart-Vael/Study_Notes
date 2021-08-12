@@ -2,7 +2,6 @@
 
 C++参考手册：[cppreference.com](https://zh.cppreference.com/)
 
-[TOC]
 - [C++常用函数及对应头文件](#c常用函数及对应头文件)
   - [字符串库](#字符串库)
     - [头文件：\<cctype\>](#头文件cctype)
@@ -12,6 +11,18 @@ C++参考手册：[cppreference.com](https://zh.cppreference.com/)
 ## 字符串库
 
 ### 头文件：\<cctype\>
+
+<style>
+table th:first-of-type {
+    width: 200pt;
+}
+table th:nth-of-type(2) {
+    width: 200pt;
+}
+table th:nth-of-type(3) {
+    width: 200pt;
+}
+</style>
 
 | 函数    | 描述                       | 使用                 |
 | ------- | -------------------------- | -------------------- |
@@ -32,6 +43,21 @@ C++参考手册：[cppreference.com](https://zh.cppreference.com/)
 
 ### 头文件：\<string\>
 
+<style>
+table th:first-of-type {
+    width: 150pt;
+}
+table th:nth-of-type(2) {
+    width: 150pt;
+}
+table th:nth-of-type(3) {
+    width: 150pt;
+}
+table th:nth-of-type(4) {
+    width: 150pt;
+}
+</style>
+
 | 函数      | 描述                               | 使用                         | 返回值                     |
 | --------- | ---------------------------------- | ---------------------------- | -------------------------- |
 | getline   | 从输入流读取字符并将它们放进string | getline(input, str, delim\*) | input                      |
@@ -49,7 +75,20 @@ C++参考手册：[cppreference.com](https://zh.cppreference.com/)
 
 
 ### 头文件：\<cstring\>
-
+<style>
+table th:first-of-type {
+    width: 150pt;
+}
+table th:nth-of-type(2) {
+    width: 150pt;
+}
+table th:nth-of-type(3) {
+    width: 150pt;
+}
+table th:nth-of-type(4) {
+    width: 150pt;
+}
+</style>
 | 函数 | 描述 | 使用 | 返回值 |
 | ---- | ---- | ---- | ------ |
 |      |      |      |        |
