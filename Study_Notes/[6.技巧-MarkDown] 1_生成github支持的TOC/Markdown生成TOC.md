@@ -67,6 +67,6 @@ URL在线编码工具：[UrlEncode编码/UrlDecode解码 - 站长工具 (chinaz.
     - [三、VSCode插件（推荐）](#%E4%B8%89vscode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90)
 ```
 
-
+- 使用URL转义可以获得与其他markdown引擎更好的兼容性，但专业会损失一定可读性。
 
 **注**：azureDevops为完整URL编码，带标点。
