@@ -1,6 +1,10 @@
 # MinGW-w64 安装和使用
 
 
+- [MinGW-w64 安装和使用](#mingw-w64-安装和使用)
+    - [关于MinGW与MinGW-w64的问题：](#关于mingw与mingw-w64的问题)
+    - [下载和安装MinGW-w64：](#下载和安装mingw-w64)
+    - [配置环境变量：](#配置环境变量)
 
 ### 关于MinGW与MinGW-w64的问题：
 

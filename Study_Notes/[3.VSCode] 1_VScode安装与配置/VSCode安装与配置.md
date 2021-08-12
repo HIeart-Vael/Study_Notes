@@ -1,6 +1,21 @@
 # VSCode安装与配置：
 
 
+- [VSCode安装与配置：](#vscode安装与配置)
+  - [VSCode下载：](#vscode下载)
+  - [VSCode安装与配置：](#vscode安装与配置-1)
+    - [一、安装：](#一安装)
+      - [注意：](#注意)
+      - [提示：](#提示)
+    - [二、配置：](#二配置)
+      - [创建工作区 & 设置语言](#创建工作区--设置语言)
+      - [JSON文件配置](#json文件配置)
+        - [settings.json](#settingsjson-参考史上最全vscode配置使用教程)
+    - [三、彩蛋：](#三彩蛋)
+      - [卸载VSCode：彻底卸载VSCode](#卸载vscode彻底卸载vscode)
+      - [一键查看支持的语言扩展：在扩展商店输入@recommended:languages](#一键查看支持的语言扩展在扩展商店输入recommendedlanguages)
+
+
 
 ## VSCode下载：
 
